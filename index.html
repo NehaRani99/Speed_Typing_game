@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+    body{
+    padding: 0;
+    margin: 0;
+    background: url(./sky.jpg);
+    background-position: bottom;
+    background-size: cover;
+    overflow: hidden;
+}
+</style>
+
+<body>
+  <div class="layer" id="layer1">
+        <div id="btn5">
+            start
+        </div>
+    </div>
+    <div class="layer" id="layer2">
+        <div class="stats">
+            <div class="lifes">
+                Lifes left : 
+                <span id="lifeNum"> 3 </span>
+            </div>
+            <div class="score">
+                Score : 
+                <span id="scoreNum"> 0 </span>
+            </div>
+            <div class="home">
+                Back
+            </div>
+        </div>
+    </div>
+    <div class="results">
+        <span style="font-size: 30px;">Game Ended</span> <br> <br>
+        Your Sore is <span id="resultsNum"> 15 </span> .
+    </div>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
